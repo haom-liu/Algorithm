@@ -155,7 +155,7 @@ std::pair<size_t, size_t> op3_2(const std::vector<float>& input) {
     assert(!input.empty());
     size_t left = 0, right = 0;
     auto maxx = input[0];
-    auto sum = 0;
+    float sum = 0;
     size_t pre = 0;
     for (size_t j = 0; j < input.size(); ++j) {
         sum += input[j];
